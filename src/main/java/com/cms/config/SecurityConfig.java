@@ -39,7 +39,7 @@ public class SecurityConfig {
         var config = new CorsConfiguration();
         config.setAllowedOriginPatterns(List.of("https://cms-project-frontend.onrender.com")); // TODO: Restrict to frontend URL in production
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
-        config.setAllowedHeaders(List.of("*"));
+        config.setAllowedHeaders(List.of("https://cms-project-frontend.onrender.com"));
         config.setAllowCredentials(true);
         config.setAllowedOrigins(List.of("https://cms-project-frontend.onrender.com"));
         var source = new UrlBasedCorsConfigurationSource();
