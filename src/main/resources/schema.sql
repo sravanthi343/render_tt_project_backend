@@ -1,0 +1,1 @@
+-- Schema managed by Hibernate (ddl-auto=update)
